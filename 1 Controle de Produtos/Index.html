@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+
+    <title>Controle de Produtos</title>
+</head>
+<body>
+
+    <header>Minha loja</header>
+
+    <main>
+        <div class="titulo">
+            <h2>produtos</h2>
+            <h1>Lista de produtos da minha loja</h1>
+        </div>
+
+        <div class="Container">
+            <div class="lineInput">
+                <label>Produto</label>
+                <input type="text" id="produto" placeholder="Nome do produto">
+            </div>
+
+            <div class="lineInput">
+                <label>preço</label>
+                <input type="number" id="preco" placeholder="Valor do produto">
+            </div>
+
+            <button onclick="produto.salvar()" id="atualizar">Salvar</button>
+            <button onclick="produto.cancelar()">Limpar</button>
+
+            <div class="Content">
+                <table border="1">
+                    <thead>
+                        <th class="center">Id</th>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                        <th>Açoes</th>
+                    </thead>
+                
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src="Script.js"></script>
+</body>
+</html>

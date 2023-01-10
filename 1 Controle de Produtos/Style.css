@@ -1,0 +1,71 @@
+header {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1, h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.Container{
+    background-color: white;
+    border: solid 1px #ccc;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    border: 0;
+    background-color: purple;
+    outline: 0;
+    padding: 10px;
+    color: white;
+}
+
+button:hover{
+ background-color: rgb(70, 0, 70);
+}
+
+.Content{
+    margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid 1px rgb(88, 88, 88);
+    width: 100%;
+}
+
+table th{
+    background-color: rgb(192, 192, 192);
+    color: white;
+    padding: 1px 5px;
+}
+
+table td img{
+    width: 20px;
+}
+
+td{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
